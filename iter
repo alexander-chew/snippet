@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+for (${1:/*container type*/}::iterator itr = ${2:/*container*/}; itr != ${2:/*container*/}.end(); itr++) {
+  ${4:/*do something*/}
+}
+]]></content>
+  <!-- You can use any name to create the snippet-->
+	<!-- <tabTrigger></tabTrigger> -->
+	<scope>source.c++</scope>
+</snippet>
